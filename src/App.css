@@ -1,0 +1,20 @@
+.App-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.pet-image {
+  width: 500px;
+  height: 500px;
+  margin: 50px;
+}
+
+.cat-container,
+.dog-container {
+  position: relative;
+}
+.text{
+  font-size: 5rem;
+}
