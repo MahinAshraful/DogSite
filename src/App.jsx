@@ -19,6 +19,7 @@ function App() {
         {dogImageUrl && <img src={dogImageUrl} alt="Random Dog" />}
         <br />
         <button onClick={() => window.location.reload()}>Refresh for New Dog</button>
+        <p>Mahin loves Ashleigh</p>
       </header>
     </div>
   );
